@@ -10,7 +10,7 @@ function App () {
             <div>
                 <h1>Nishant CM</h1>
                 <div className="d-flex justify-content-between">
-                    <Header section />
+                    <Header />
                 </div>
                 
             </div>

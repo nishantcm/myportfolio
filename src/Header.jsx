@@ -1,36 +1,40 @@
 import Card from "react-bootstrap/Card";
-import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import Stack from "react-bootstrap/Stack";
 
-export default function Header( section ) {
+export default function Header() {
     return (
         <Card>
             <Card.Header>
-                <Nav className="flex-row" defaultActiveKey="#first">
-                    <Nav.Item>
-                        <Nav.Link href="#first">Home</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link href="#">About</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link href="#">Resume</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link href="#">Services</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link href="#">Skills</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link href="#">Projects</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link href="#">My Blogs</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link href="#">Contact</Nav.Link>
-                    </Nav.Item>
-                </Nav>
+                <Stack direction="horizontal">
+                    <Navbar className="" defaultActiveKey="#first">
+                        <Navbar.Item>
+                            <Navbar.Link href="#first">Home</Navbar.Link>
+                        </Navbar.Item>
+                        <Navbar.Item>
+                            <Navbar.Link href="#">About</Navbar.Link>
+                        </Navbar.Item>
+                        <Navbar.Item>
+                            <Navbar.Link href="#">Resume</Navbar.Link>
+                        </Navbar.Item>
+                        <Navbar.Item>
+                            <Navbar.Link href="#">Services</Navbar.Link>
+                        </Navbar.Item>
+                        <Navbar.Item>
+                            <Navbar.Link href="#">Skills</Navbar.Link>
+                        </Navbar.Item>
+                        <Navbar.Item>
+                            <Navbar.Link href="#">Projects</Navbar.Link>
+                        </Navbar.Item>
+                        <Navbar.Item>
+                            <Navbar.Link href="#">My Blogs</Navbar.Link>
+                        </Navbar.Item>
+                        <Navbar.Item>
+                            <Navbar.Link href="#">Contact</Navbar.Link>
+                        </Navbar.Item>
+                    </Navbar>
+                </Stack>
+                
             </Card.Header>
         </Card>
     );
