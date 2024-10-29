@@ -9,7 +9,7 @@ function App () {
         <main>
             <div>
                 <h1>Nishant CM</h1>
-                <div className="d-flex justify-content-between">
+                <div>
                     <Header />
                 </div>
                 
