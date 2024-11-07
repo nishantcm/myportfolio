@@ -8,7 +8,6 @@ function App () {
     return (
         <main>
             <div>
-                <h1>Nishant CM</h1>
                 <div>
                     <Header />
                 </div>
