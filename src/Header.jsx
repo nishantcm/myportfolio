@@ -6,10 +6,13 @@ import Nav from "react-bootstrap/Nav";
 export default function Header() {
     return (
         <>
-            <Navbar defaultActiveKey="#first">
+            <Navbar>
                 <Container>
-                    <Nav className="me-auto">
-                        <Nav.Link href="#first">Home</Nav.Link>
+                    <Navbar.Brand href="#home">
+                        <h1>Nishant CM</h1>
+                    </Navbar.Brand>
+                    <Nav className="d-flex justify-content-around">
+                        <Nav.Link href="#home">Home</Nav.Link>
 
                         <Nav.Link href="#">About</Nav.Link>
 
@@ -25,7 +28,6 @@ export default function Header() {
 
                         <Nav.Link href="#">Contact</Nav.Link>
                     </Nav>
-                    
                 </Container>
             </Navbar>
         </>
