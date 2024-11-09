@@ -6,12 +6,12 @@ import Nav from "react-bootstrap/Nav";
 export default function Header() {
     return (
         <>
-            <Navbar>
-                <Container>
+            <Navbar expand="lg" className="bg-body-tertiary">
+                <Container className="navStyle">
                     <Navbar.Brand href="#home">
                         <h1>Nishant CM</h1>
                     </Navbar.Brand>
-                    <Nav className="d-flex justify-content-around">
+                    <Nav className="">
                         <Nav.Link href="#home">Home</Nav.Link>
 
                         <Nav.Link href="#">About</Nav.Link>
