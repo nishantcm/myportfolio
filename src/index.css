@@ -15,8 +15,11 @@ html {
 body {
     background-color: black;
 }
-.navStyle {
+/* .navStyle {
     display: flex;
     justify-content: space-between;
     align-items: center;
+} */
+.headerColor {
+    color: #fff;
 }
