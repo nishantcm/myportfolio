@@ -11,7 +11,7 @@ export default function Header() {
                 <Row className="w-100 border-2">
                     <Col md={3}>
                         <Navbar.Brand href="#home">
-                            <h1 className="headerColor ms-5">Nishant CM</h1>
+                            <h3 className="headerColor ms-5 mt-3">Nishant CM</h3>
                         </Navbar.Brand>
                     </Col>
                     <Col md={9}>
