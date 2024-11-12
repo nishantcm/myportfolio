@@ -15,11 +15,38 @@ html {
 body {
     background-color: black;
 }
-/* .navStyle {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} */
+/*--- Header ---*/
 .headerColor {
-    color: #fff;
+    color: #fff !important;
+}
+.headerColor:active {
+    color: #ffbd39 !important;
+}
+.headerColor {
+    display: inline-block;
+    position: relative;
+}
+
+.headerColor::after {
+    content: '';
+    position: absolute;
+    width: 80%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 8px;
+    background-color: #ffbd39;
+    transition: transform 0.25s ease-out;
+}
+
+.headerColor:hover::after {
+    transform: scaleX(1);
+}
+
+.headerColor.center::after {
+    transform-origin: bottom center;
+}
+
+.headerColor.center:hover::after {
+    transform-origin: bottom center;
 }
