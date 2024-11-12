@@ -8,14 +8,14 @@ export default function Header() {
     return (
         <>
             <Navbar>
-                <Row>
+                <Row className="w-100 border-2">
                     <Col md={3}>
                         <Navbar.Brand href="#home">
-                            <h1 className="headerColor">Nishant CM</h1>
+                            <h1 className="headerColor ms-5">Nishant CM</h1>
                         </Navbar.Brand>
                     </Col>
                     <Col md={9}>
-                        <Nav className="justify-content-end">
+                        <Nav className="justify-content-end me-5 mt-3">
                             <Nav.Link href="#" className="headerColor">Home</Nav.Link>
                             <Nav.Link href="#" className="headerColor">About</Nav.Link>
                             <Nav.Link href="#" className="headerColor">Resume</Nav.Link>
