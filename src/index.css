@@ -50,3 +50,6 @@ body {
 .headerColor.center:hover::after {
     transform-origin: bottom center;
 }
+.customMar {
+    margin-left: 50px;
+}
