@@ -3,6 +3,7 @@ import { Navbar, Row } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
+import Home from "./components/Home";
 // import Stack from "react-bootstrap/Stack";
 
 export default function Header() {
@@ -30,8 +31,8 @@ export default function Header() {
                         </Col>
                     </Row>
                 </Container>
-                
             </Navbar>
+            <Home></Home>
         </>
         // <Card>
         //     <Card.Header>
