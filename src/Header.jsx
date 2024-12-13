@@ -10,7 +10,7 @@ export default function Header() {
     return (
         <>
             <Navbar>
-                <Container className="container">
+                <Container>
                     <Row className="w-100 border-2">
                         <Col md={3} lg={3}>
                             <Navbar.Brand href="#home">
