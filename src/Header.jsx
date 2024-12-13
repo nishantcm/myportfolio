@@ -4,6 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Home from "./components/Home";
+import About from "./components/About";
 // import Stack from "react-bootstrap/Stack";
 
 export default function Header() {
@@ -33,6 +34,7 @@ export default function Header() {
                 </Container>
             </Navbar>
             <Home></Home>
+            <About></About>
         </>
         // <Card>
         //     <Card.Header>
