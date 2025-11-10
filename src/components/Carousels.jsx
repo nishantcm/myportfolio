@@ -7,11 +7,11 @@ function CarouselFadeExample() {
     <Carousel fade>
       <Carousel.Item>
         {/* <ExampleCarouselImage text="First slide" /> */}
-        {/* <img
+        <img
           className="d-block w-100"
-          src="holder.js/800x400?text=First slide&bg=f5f5f5"
+          src="../images/profile/nishant.jpg"
           alt="First slide"
-        /> */}
+        />
         <Carousel.Caption>
             <Card className="bg-white w-100">
                 <h3>First slide label</h3>

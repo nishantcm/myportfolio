@@ -34,8 +34,6 @@ export default function Header() {
                     </Row>
                 </Container>
             </Navbar>
-            <Carousels></Carousels>
-            <About></About>
         </>
         // <Card>
         //     <Card.Header>
